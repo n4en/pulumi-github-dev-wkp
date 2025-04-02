@@ -1,0 +1,6 @@
+team-developers:
+  description: "Development team"
+  privacy: "closed"
+team-admins:
+  description: "Admin team"
+  privacy: "secret"
