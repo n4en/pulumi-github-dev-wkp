@@ -1,0 +1,11 @@
+name: pulumi-github-dev-wkp
+description: Hands-on challenges for developers to explore Pulumi with the GitHub provider.
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: github-python

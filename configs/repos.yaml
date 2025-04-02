@@ -1,0 +1,16 @@
+test1-repo:
+  description: "Test1 Repo"
+  visibility: "private"
+  permissions:
+    team-developers:
+      - "push"
+    team-admins:
+      - "admin"
+test2-repo:
+  description: "Test2 Repo"
+  visibility: "public"
+  permissions:
+    team-developers:
+      - "pull"
+    team-admins:
+      - "admin"
